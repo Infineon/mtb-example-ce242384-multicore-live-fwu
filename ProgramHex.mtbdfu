@@ -1,0 +1,26 @@
+{
+    "APPInfo": {
+        "File Version": "0x1",
+        "Packet Checksum Type": "0x0",
+        "Product Id": "01020304"
+    },
+    "commands": [
+        {
+            "commandSet": [
+                {
+                    "cmdId": "0x37",
+                    "dataLength": "0x80",
+                    "repeat": "0x04"
+                },
+                {
+                    "cmdId": "0x49",
+                    "dataLength": "0x08"
+                }
+            ],
+            "dataFile": "./build/app_combined.hex",
+            "flashRowLength": "0x200",
+            "repeat": "EoF",
+            "timeoutMS": "0x200"
+        }
+    ]
+}

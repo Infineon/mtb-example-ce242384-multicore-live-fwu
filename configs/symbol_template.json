@@ -1,0 +1,6 @@
+{
+    "symbolInformation" :
+    [
+        { "name" : "IMAGE_VERSION_STRING", "value" :  "MAJ.MIN.REV+BN" }
+    ]
+}
